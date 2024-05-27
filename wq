@@ -1,0 +1,27 @@
+add, commitのコマンドを追記
+
+講座の受講完了
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   fast.txt.txt
+#
+# ------------------------ >8 ------------------------
+# Do not modify or remove the line above.
+# Everything below it will be ignored.
+diff --git a/fast.txt.txt b/fast.txt.txt
+new file mode 100644
+index 0000000..3bcfb19
+--- /dev/null
++++ b/fast.txt.txt
+@@ -0,0 +1,5 @@
++gitの練習
++基本的な練習を行います
++
++git add
++git commit
+\ No newline at end of file
